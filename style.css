@@ -1,0 +1,12 @@
+/* Koloruje paragrafy znajdujące się tylko w divie*/
+div > p {
+    background-color: blue;
+}
+/*Paragraf następujący po divie (+)*/
+div + p {
+    background-color: green;
+}
+/*Koloruje wszystkie paragrafy z p*/
+div ~ p {
+    background-color: cyan;
+}
